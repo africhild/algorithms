@@ -1,14 +1,14 @@
 package main
 
-
 // func main() {
 
 // }
 
 func runningSum(nums []int) []int {
-	for i := 1; i < len(nums); i++ {
-		nums[i] += nums[i-1]
+	var sum int
+	for i := 0; i < len(nums); i++ {
+		sum += nums[i]
+		nums[i] = sum
 	}
 	return nums
 }
-

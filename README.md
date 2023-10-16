@@ -46,11 +46,13 @@ A collection of exercises to help improve your understanding of algorithms and d
 ## Contributing
 
 * _This project is work in progress_ If you would like to contribute, please do get in touch.
-* Read [contributing.md](https://github.com/aellacredit/algo/tree/contributing.md) for guidelines
+* Read [contributing.md](https://github.com/africhild/algo/tree/contributing.md) for guidelines
 * Any ideas? Create an issue
 
 ## Feedback
 
-* Add issues/submit PRs [here](https://github.com/aellacredit/algo/issues)
+* Add issues/submit PRs [here](https://github.com/africhild/algo/issues)
 
 [MIT license](LICENSE.md)
+
+gotests -all -w -parallel .
